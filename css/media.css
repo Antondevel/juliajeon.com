@@ -1,4 +1,4 @@
-@media (max-width: 1230px) {
+@media (max-width: 1024px) {
 	.section--about {
 		min-height: 50vh;
 
@@ -119,6 +119,11 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.nav.open .nav-list {
+		row-gap: 27px;
+		font-size: 16px;
+	}
 }
 
 
@@ -134,6 +139,7 @@
 
 	.nav.open .nav-list {
 		font-size: 18px;
+		row-gap: 26px;
 	}
 
 	.header-heading {
