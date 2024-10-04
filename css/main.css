@@ -258,6 +258,7 @@ body {
     /* Сдвинут вправо (для изображения) */
     transition: opacity 0.5s ease, transform 0.5s ease;
     /* Плавный переход */
+    filter: drop-shadow(10px 10px 100px rgba(60, 60, 60, 0.5));
 }
 
 .header-img.visible {
